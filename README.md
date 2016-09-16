@@ -11,5 +11,5 @@ You can overwrite all configs in the following schema:
 # options
 
  - `sinopia_auth__htpasswd__max_users ='1000'`
- - `sinopia_extra__packages='{"groupprefix-*": { "access": "$authenticated" }}'`
+ - `sinopia__extra__packages='{"groupprefix-*": { "access": "$authenticated" }}'`
  - `sinopia__extra__packages='{"groupprefix-*": { "publish": "group-one, group-two, user-one" }}'`
