@@ -2,7 +2,7 @@ FROM node:6-slim
 
 MAINTAINER Tobias Gurtzick <magic@wizartales.com>
 
-UN groupadd --gid 1000 sinopia \
+RUN groupadd --gid 1000 sinopia \
   && useradd --uid 1000 --gid sinopia --shell /bin/bash --create-home sinopia
 WORKDIR /home/sinopia
 USER sinopia
