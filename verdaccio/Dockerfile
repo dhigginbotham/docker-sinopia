@@ -7,8 +7,8 @@ USER node
 
 RUN npm install verdaccio && npm install js-yaml rc
 
-Add ../config.yaml .
-ADD ../configure.js .
+Add config.yaml .
+ADD configure.js .
 ADD start.sh .
 
 CMD ["./start.sh"]
