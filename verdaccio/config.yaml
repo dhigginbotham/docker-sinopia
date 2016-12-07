@@ -27,6 +27,10 @@ packages:
     access: $all
     publish: $authenticated
 
+    # if package is not available locally, proxy requests to 'npmjs' registry
+    proxy: npmjs
+        
+
   '*':
     # allow all users (including non-authenticated users) to read and
     # publish all packages
